@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Проверка рабочего окружения</title>
+  </head>
+  <body>
+    <h1>Рабочее окружение готово!</h1>
+    <p>Проверяем HTML, CSS и JavaScript.</p>
+    <button id="testButton">Нажми меня</button>
+
+    <script>
+      document.getElementById("testButton").addEventListener("click", () => {
+        alert("JavaScript работает!");
+      });
+    </script>
+    <div>
+      <h2>Проверка форматирования</h2>
+      <p>Prettier должен исправить отступы.</p>
+    </div>
+  </body>
+</html>
