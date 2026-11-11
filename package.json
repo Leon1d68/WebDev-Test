@@ -11,7 +11,7 @@
     "license": "ISC",
     "type": "commonjs",
     "devDependencies": {
-        "eslint": "^10.14.0",
+        "eslint": "^9.39.5",
         "eslint-config-prettier": "^10.1.8",
         "globals": "^17.14.0",
         "prettier": "^3.10.0"
